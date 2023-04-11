@@ -3,12 +3,12 @@ import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-axios.defaults.baseURL = 'https://pixabay.com/api/';
+//axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 let simpleLightbox = new SimpleLightbox('.gallery a');
 
 const Notiflix = require('notiflix');
-const axios = require('axios');
+//const axios = require('axios');
 
 const input = document.querySelector('.search-form');
 
